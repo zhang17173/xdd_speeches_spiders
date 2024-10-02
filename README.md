@@ -1,6 +1,12 @@
-# peopleSpider
-人民网-习近平系列重要讲话爬虫，Java简单爬虫，Jsoup爬虫  
-这次不太一样的是在于之前一直使用Java基本的实现爬虫，这次用了Jsoup更方便，更简单了。然后输出不再是Txt文档，而是直接写入数据库了。
+# xdd_speeches_spiders/习近平总书记系列重要讲话爬虫
+
+> 声明：本项目是基于[peopleSpider](https://github.com/booooodv/peopleSpider)的修改和更新，感谢原作者的贡献。
+
+## 运行环境：
+- `JDK`: `17.0.12`
+- `Maven`: `3.6.3`
+- `MySQL`: `8.4.2`
+
 ## 需求  
 [http://jhsjk.people.cn/result/](http://jhsjk.people.cn/result/1?keywords=&year=0&button=%E6%90%9C%E7%B4%A2)  
 从这个网站获取网站列表  
