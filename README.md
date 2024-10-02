@@ -1,5 +1,7 @@
 # xdd_speeches_spiders/习近平总书记系列重要讲话爬虫
 
+![](https://jhsjk.people.cn/static/resource/top480new.jpg)
+
 > 声明：本项目是基于[peopleSpider](https://github.com/booooodv/peopleSpider)的修改和更新，感谢原作者的贡献。
 
 ## 运行环境：
