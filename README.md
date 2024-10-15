@@ -9,6 +9,18 @@
 - `Maven`: `3.6.3`
 - `MySQL`: `8.4.2`
 
+
+## 运行方式
+- 在项目根目录下运行以下Maven命令来编译和打包项目:
+```shell
+mvn clean package
+```
+- 在项目根目录下运行以下命令来运行项目:
+```shell
+java -jar target/cc.booooodv-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+
+
 ## 需求  
 [http://jhsjk.people.cn/result/](http://jhsjk.people.cn/result/1?keywords=&year=0&button=%E6%90%9C%E7%B4%A2)  
 从这个网站获取网站列表  

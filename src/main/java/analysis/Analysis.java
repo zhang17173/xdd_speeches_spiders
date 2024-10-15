@@ -41,7 +41,8 @@ public class Analysis {
                  ) {
                 contentList.add(e.text());      //所有内容都装入list
             }
-            String allContent = contentList.toString();     //完整内容
+            // 将contentList中的所有段落连接成一个完整的字符串
+            String allContent = String.join("\n", contentList);
 //            allContent = allContent.substring(1,allContent.length()-1);     //去掉前后[]
             for (Element e:elements
                  ) {

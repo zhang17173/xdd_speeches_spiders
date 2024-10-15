@@ -23,7 +23,8 @@ public class ToMysql {
                 "gedi",
                 "gedi@gedi.com"
             );
-            PreparedStatement pre = conn.prepareStatement("insert into speak2_copy(title,publish_time,source,text,code,url) values(?,?,?,?,?,?)");
+            PreparedStatement pre = conn.prepareStatement(
+                    "insert into xdd_speeches(title,publish_time,source,text,code,url) values(?,?,?,?,?,?)");
             pre.setObject(1, title);
             pre.setObject(2, time);
             pre.setObject(3, source);

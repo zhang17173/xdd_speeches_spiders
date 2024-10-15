@@ -10,9 +10,9 @@ public class Main {
         Analysis analysis = new Analysis();
         String urlHeader = "http://jhsjk.people.cn/result/";
         String urlTail = "?keywords=&year=0&button=%E6%90%9C%E7%B4%A2";
-        for (int i = 1; i <= 20;i++){
+        for (int i = 1; i <= 40; i++) {
             // String url = urlHeader + i + urlTail;   //完整的url
-            String url = urlHeader+"?keywords=&form=706&year=0&page="+i;
+            String url = urlHeader + "?keywords=&year=0&form=706&page=" + i;
             List<String> urlList = analysis.getUrlList(ConnectionUtil.Connect(url));
             analysis.getContent(urlList);
         }
